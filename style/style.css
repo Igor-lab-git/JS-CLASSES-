@@ -1,0 +1,96 @@
+
+.serch {
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid red;
+}
+
+.grid {
+    width: 60%;
+    margin: 0 auto;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+.card {
+    position: relative;
+    max-width: 310px;
+    max-height: 500px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.card-img {
+    height: 380px;
+    width: 300px;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.title {
+    margin: 5px 0 5px 0;
+}
+
+.card-text {
+    margin: 5px 0 5px 0;
+}
+
+.add {
+    display: none;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    background-color:red ;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.show {
+    display: block;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    width: 90px;
+    height: 25px;
+    background-color: blue;
+    color: azure;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: azure;
+    color: blue;
+}
+
+.link:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
